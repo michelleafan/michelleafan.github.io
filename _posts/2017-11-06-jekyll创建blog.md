@@ -35,7 +35,7 @@ cd blog
 jekyll serve --host 0.0.0.0
 ```
 笔者在创建blog的过程中，遇到了如下的问题：
-##### 1）执行jekyll new blog之后，一直卡在那里，无响应
+#### 1）执行jekyll new blog之后，一直卡在那里，无响应
 强制中断任务（ctrl+c）以后，运行jekyll serve命令，Ruby提示错误：
 Bundler::GemNotFound 
 原因是依赖的某个模块没有安装
@@ -46,8 +46,10 @@ bundle install 或者
 gem install xxx（模块名）
 #### 2) 直接运行jekyll serve命令，在浏览器中不能访问
 显示是正常运行的：
-![alt](./1509898215519.png)
+![jpg](/assets/images/1.jpg)
+
 浏览器不能访问
+
 ![Alt text](./1509898247539.png)
 原因没有搞明白，但是通过添加参数解决，通过外网ip+4000端口即可访问：
 ```
