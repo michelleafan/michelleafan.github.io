@@ -35,7 +35,7 @@ cd blog
 jekyll serve --host 0.0.0.0
 ```
 笔者在创建blog的过程中，遇到了如下的问题：
-### 1）执行jekyll new blog之后，一直卡在那里，无响应
+#### 1）执行jekyll new blog之后，一直卡在那里，无响应
 强制中断任务（ctrl+c）以后，运行jekyll serve命令，Ruby提示错误：
 Bundler::GemNotFound 
 原因是依赖的某个模块没有安装
@@ -44,7 +44,7 @@ http://blog.csdn.net/moonclearner/article/details/52238033
 需要根据错误提示信息确认缺少的模块，执行
 bundle install 或者
 gem install xxx（模块名）
-### 2) 直接运行jekyll serve命令，在浏览器中不能访问
+#### 2) 直接运行jekyll serve命令，在浏览器中不能访问
 显示是正常运行的：
 
 ![jpg](/assets/images/1.jpg)
