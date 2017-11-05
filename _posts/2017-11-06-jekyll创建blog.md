@@ -46,6 +46,7 @@ bundle install 或者
 gem install xxx（模块名）
 #### 2) 直接运行jekyll serve命令，在浏览器中不能访问
 显示是正常运行的：
+
 ![jpg](/assets/images/1.jpg)
 
 浏览器不能访问
