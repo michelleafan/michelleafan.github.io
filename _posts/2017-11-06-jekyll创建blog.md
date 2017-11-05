@@ -68,7 +68,7 @@ jekyll serve --host 0.0.0.0
 之后笔者将_include,_layout替换成需要的（部分替换的资源来源简书那篇文章中的资源）。
 当前博客页面即为最终的效果
 
-####4提交代码到github上
+#### 4提交代码到github上
 ```
 cd my_website_folder   //进入blog所在的文件夹
 git init
