@@ -51,24 +51,31 @@ gem install xxx（模块名）
 
 浏览器不能访问
 
-![Alt text](./1509898247539.png)
+![jpg2](/assets/images/3.jpg)
+
 原因没有搞明白，但是通过添加参数解决，通过外网ip+4000端口即可访问：
 ```
 jekyll serve --host 0.0.0.0
 ```
 #### 3 查看并修改博客页面
 创建blog后，查看当前的文件目录为：
-![alt](./1509898698407.png)
-为什么这个地方与其他资料显示的目录结构不一致呢？（_include,_layouts等都没有）
-![](./1509898835160.png)
+
+![jpg3](/assets/images/4.jpg)
+
+为什么这个地方与其他资料显示的目录结构不一致呢？（include,layouts等没有）
+
+![jpg4](/assets/images/5.jpg)
+
 查官网资料发现原因是：https://jekyllrb.com/docs/themes/
 
-![Alt text](./1509899114675.png)
+![jpg5](/assets/images/6.jpg)
 
 原来这些文件夹都在主题下面
-![Alt text](./1509899376180.png)
+
+![jpg6](/assets/images/7.jpg)
+
 此处可以将主题下面的文件copy到blog目录下，之后对blog目录下的资源进行修改
-之后笔者将_include,_layout替换成需要的（部分替换的资源来源简书那篇文章中的资源）。
+之后笔者将include,layout替换成需要的（部分替换的资源来源简书那篇文章中的资源）。
 当前博客页面即为最终的效果
 
 #### 4提交代码到github上
